@@ -5,7 +5,7 @@
 #include <fcntl.h>
 
 #define NUMBER_OF_CARDS 60
-#define NUMBER_COL		3
+#define NUMBER_COL		2
 
 size_t g_max_size = 0;
 
@@ -88,8 +88,9 @@ t_vector *get_result(t_list **list, int count)
 		tmp = get_elem(list, nb);
 		if (tmp == NULL)
 			break ;
-		if (i % NUMBER_COL == 0)
-			vct_addstr(output, "\n\n\n\t\t");
+		if (i % NUMBER_COL == 0 && i != 0)
+			vct_addstr(output, "\n\n\n\n\n");
+		vct_addstr(output, "  ");
 		vct_addstr(output, tmp);
 		count--;
 		ft_strdel(&tmp);

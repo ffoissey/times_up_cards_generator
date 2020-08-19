@@ -2,7 +2,7 @@ CC = clang
 CFLAGS = -Wall -Wextra -Werror
 NAME = generator
 LIB = libft/libft.a
-SRC = generate.c
+SRC = sources/generate.c
 
 all: $(NAME)
 
@@ -15,11 +15,10 @@ $(LIB): FORCE
 FORCE:
 
 clean:
-	$(RM) ./cards.txt
-	$(MAKE) clean -C ./libft/
+	$(RM) $(NAME)
 
 fclean: clean
-	$(RM) $(NAME)
+	$(RM) ./cards.txt
 	$(MAKE) fclean -C ./libft/
 
 re: fclean

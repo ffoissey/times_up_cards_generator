@@ -1,3 +1,4 @@
 #!/bin/bash
 
-make re -j8 >/dev/null && make card
+make -j8 >/dev/null && make card
+make clean

@@ -27,7 +27,7 @@ t_list	*parse_file(int *count)
 	t_list		*node;
 	t_vector	*line;
 
-	fd = open("./list.txt", O_RDONLY);
+	fd = open("./resources/list.txt", O_RDONLY);
 	if (fd == FAILURE)
 		return (NULL);
 	line = vct_new(0);

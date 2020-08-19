@@ -35,13 +35,14 @@ t_list	*parse_file(int *count)
 	{
 		if (vct_apply(line, IS_SPACE) == TRUE)
 			continue ;
+		vct_apply(line, UPCASE);
 		if (vct_len(line) > g_max_size)
 			g_max_size = vct_len(line);
 		node = ft_lstnew(vct_getstr(line), vct_len(line) + 1);
 		ft_lstadd(&list, node);
 		(*count)++;
 	}
-	g_max_size += 2;
+	g_max_size += 6;
 	vct_del(&line);
 	close(fd);
 	return (list);
@@ -51,6 +52,7 @@ char	*get_elem(t_list **list, int nb)
 {
 	int	i = 0;
 	char	*result = NULL;
+	size_t	rest;
 
 	for (t_list *tmp = *list; tmp != NULL; tmp = tmp->next)
 	{
@@ -61,7 +63,9 @@ char	*get_elem(t_list **list, int nb)
 				return (NULL);
 			ft_memset(result, ' ', g_max_size);
 			result[g_max_size - 1] = '\0';
-			ft_memcpy(result, tmp->content, tmp->content_size - 1);
+			rest = (g_max_size - tmp->content_size) / 2
+					+ (g_max_size - tmp->content_size) % 2,
+			ft_memcpy(result + rest, tmp->content, tmp->content_size - 1);
 			ft_lstdelnode(list, tmp->content, ft_del2);
 			return (result);
 		}
@@ -84,9 +88,9 @@ t_vector *get_result(t_list **list, int count)
 		tmp = get_elem(list, nb);
 		if (tmp == NULL)
 			break ;
+		if (i % NUMBER_COL == 0)
+			vct_addstr(output, "\n\n\n\t\t");
 		vct_addstr(output, tmp);
-		if ((i + 1) % NUMBER_COL == 0)
-			vct_add(output, '\n');
 		count--;
 		ft_strdel(&tmp);
 		i++;
@@ -96,6 +100,7 @@ t_vector *get_result(t_list **list, int count)
 		vct_del(&output);
 		return (NULL);
 	}
+	vct_add(output, '\n');
 	return (output);
 }
 

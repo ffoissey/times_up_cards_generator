@@ -1,37 +1,19 @@
+Abbe Pierre
 Abu (Aladdin)
-Andy (Toy Story)
-Atchoum (Blanche Neige)
-Belle (La Belle et la Bete)
-Cruella (101 Dalmatien)
-Remy (Ratatouille)
-Ursula (La Petite Sirene)
-Gaston (La Belle et la Bete)
-Clovis
-Jean Moulin
-Robespierre
-Nicephore Niepce
-Henry Ford
-Charles Lindbergh
-Alfred Hitchcock
-Rembrandt
-Rodin
-Jean-Sebastien Bach
-Duke Ellington
-Boris Vian
-Robert Doisneau
 Agatha Christie
-Coco Chanel
-George Michael
 Agent J
 Agent K
 Aladdin
 Albert Einstein
+Alfred Hitchcock
 Alice au pays des merveilles
 Alvin
 Amelie Poulain
+Andy (Toy Story)
 Archimede
 Ariel
 Asterix
+Atchoum (Blanche Neige)
 Austin Powers
 Baloo
 Bambi
@@ -41,11 +23,13 @@ Bart
 Batman
 Bella (Twilight)
 Belle
+Belle (La Belle et la Bete)
 Betty Boop
 Bill Gates
 Bisounours
 Blanche Neige
 Borat
+Boris Vian
 Bugs Bunny
 Capitaine Crochet
 Captain America
@@ -56,6 +40,7 @@ Catwoman
 Celine Dion
 Cendrillon
 Chantal Goya
+Charles Lindbergh
 Charlie
 Charlie Brown
 Charlie Chaplin
@@ -63,9 +48,12 @@ Chewbacca
 Cindy Sanders
 Claude Francois
 Cleopatre
+Clovis
+Coco Chanel
 Columbo
 Cousteau
 Cruella
+Cruella (101 Dalmatien)
 Cyclope
 Cyril Lignac
 Daffy Duck
@@ -78,12 +66,13 @@ Donatello
 Dora
 Dorothee
 Double Face
-Dracula
 Dr House
+Dracula
+Duke Ellington
 Dumbo
+ET
 Edward (Twilight)
 Elizabeth II
-ET
 Eve
 Fee Clochette
 Felix (Le Chat)
@@ -96,12 +85,15 @@ Gad Elmaleh
 Galilee
 Gandalf
 Garfield
+Gaston (La Belle et la Bete)
 Gaston Lagaffe
+George Michael
 Godzilla
 Gollum
 Hannibal
 Harry Potter
 Hello Kitty
+Henry Ford
 Hercule
 Hermione
 Homer Simpson
@@ -114,7 +106,10 @@ Jack (Titanic)
 Jack Sparrow
 James Bond
 Jason Bourne
+Jean Moulin
+Jean-Claude Vandamme
 Jean-Pierre Pernaut
+Jean-Sebastien Bach
 Jerry
 John Mcclane
 Johnny Bravo
@@ -122,30 +117,28 @@ Johnny Halliday
 Joker
 Jules Verne
 Kenny (South Park)
-Jean-Claude Vandamme
 Kermit
 Kevin (La-Haut)
 King Kong
 Kung Fu Panda
-Abbe Pierre
 La Joconde
 Lancelot
 Lara Croft
 Lassie
 Laurel (Laurel et Hardy)
 Le Dalai lama
-Leela (Futurama)
 Le Genie
 Le Grinch
-Leornardo
 Le Parrain
 Le Pingouin
+Leela (Futurama)
+Leornardo
 Les freres Grimm
 Lionel Messi
 Lisa Simpsons
-Louis de Funes
 Louis Vuitton
 Louis XIV
+Louis de Funes
 Lucky Luke
 Luke Skywalker
 Mac Gyver
@@ -172,12 +165,13 @@ Mr Bean
 Mulan
 Napoleon
 Nemo
+Neo
+Nicephore Niepce
 Nikita
 Obelix
 Olive Oyl
 Panthere Rose
 Penny
-Neo
 Pepper Potts
 Pere Noel
 Peter Griffin
@@ -185,7 +179,6 @@ Peter Pan
 Picard
 Picasso
 Picsou
-Hercule
 Piggy
 Pikachu
 Pinocchio
@@ -201,10 +194,14 @@ Raiponce
 Raphael
 Rayman
 Rebelle
+Rembrandt
 Remy (Ratatouille)
+Robert Doisneau
+Robespierre
 Robin des Bois
 Robocop
 Rocky
+Rodin
 Ron Weasley
 Rose (Titanic)
 Schreck
@@ -232,12 +229,12 @@ Sulli
 Superman
 Swampy
 Sylvestre
+Tac
 Tarzan
 Taz
 Terminator
 Thor
 Tic
-Tac
 Timon
 Tintin
 Titeuf
@@ -245,6 +242,7 @@ Titi
 Tom
 Tony Montana
 Tony Stark
+Ursula (La Petite Sirene)
 Vil Coyote
 Voldemort
 Wall E

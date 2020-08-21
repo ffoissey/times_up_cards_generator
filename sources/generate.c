@@ -82,19 +82,22 @@ t_vector *get_result(t_list **list, int count)
 	char	*tmp = NULL;
 
 	srand(time(NULL));
+	vct_addstr(output, "\n\n\n");
 	while (i < NUMBER_OF_CARDS && *list != NULL)
 	{
 		nb = rand() % count;
 		tmp = get_elem(list, nb);
 		if (tmp == NULL)
 			break ;
-		if (i % NUMBER_COL == 0 && i != 0)
-			vct_addstr(output, "\n\n\n\n\n");
 		vct_addstr(output, "  ");
 		vct_addstr(output, tmp);
+		i++;
 		count--;
 		ft_strdel(&tmp);
-		i++;
+		if (i != 0 && (i) % 14 == 0)
+			vct_addstr(output, "\n\n\n\n\n\n");
+		else if (i % NUMBER_COL == 0 && i != 0)
+			vct_addstr(output, "\n\n\n\n\n\n\n\n");
 	}
 	if (i != NUMBER_OF_CARDS)
 	{

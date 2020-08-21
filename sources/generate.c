@@ -42,7 +42,7 @@ t_list	*parse_file(int *count)
 		ft_lstadd(&list, node);
 		(*count)++;
 	}
-	g_max_size += 6;
+	g_max_size += 3;
 	vct_del(&line);
 	close(fd);
 	return (list);
@@ -89,7 +89,6 @@ t_vector *get_result(t_list **list, int count)
 		tmp = get_elem(list, nb);
 		if (tmp == NULL)
 			break ;
-		vct_addstr(output, "  ");
 		vct_addstr(output, tmp);
 		i++;
 		count--;
